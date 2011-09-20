@@ -1,9 +1,12 @@
-var bogart = require('bogart');
+var express = require('express');
 
-var app = bogart.router(function(get, post, update, destroy) {
-       get('/', function() {
-                  return bogart.html('Hello World');
-                      });
+var app = express.createServer(express.logger());
+
+app.get('/', function(request, response) {
+     response.send('Hello World!');
 });
 
-bogart.start(app);
+var port = process.env.PORT || 3000;
+app.listen(port, function() {
+     console.log("Listening on " + port);
+});

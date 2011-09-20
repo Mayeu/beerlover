@@ -2,6 +2,6 @@
    "name": "simple-service",
    "version": "0.0.1",
    "dependencies": {
-      "bogart": "0.3.3"
+      "express": "2.4.6"
    }
 }
