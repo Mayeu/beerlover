@@ -1,0 +1,7 @@
+{
+   "name": "simple-service",
+   "version": "0.0.1",
+   "dependencies": {
+      "bogart": "0.3.3"
+   }
+}
