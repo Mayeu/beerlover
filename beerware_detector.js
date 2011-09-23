@@ -1,6 +1,5 @@
 var express = require('express');
 var https = require('https');
-var connect = require('connect');
 
 var gapi = 'api.github.com';
 
