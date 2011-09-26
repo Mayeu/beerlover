@@ -15,4 +15,4 @@ and it will return:
 
 == Todo
 
-A lot of things, this version is only a first try for the scripts, I exept to make it a lot more better. Any feedback is welcome :)
+A lot of things, this version is only a first try for the scripts, I except to make it a lot better. Any feedback is welcome :)
